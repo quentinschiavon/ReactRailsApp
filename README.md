@@ -10,7 +10,7 @@ Web application displaying Star Wars characters
 
 #### System dependencies
 
-* Ruby ~2.3.7
+* Ruby ~2.5.3
 
 * Rails ~5.2.3
 
