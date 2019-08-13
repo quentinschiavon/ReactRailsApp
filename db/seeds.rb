@@ -19,6 +19,7 @@ url = 'https://swapi.co/api/people'
 #  Item.create!(name: results["name"], description: results["gender"])
 #end
 #$compteur = 0
+Item.destroy_all
 
 def fullfillDatabase(url)
   resp = URI.parse(url).read
