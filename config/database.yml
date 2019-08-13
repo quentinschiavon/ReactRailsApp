@@ -52,3 +52,12 @@ test:
   #username: quentin
   password:
   timeout: 5000
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: react_rails_test
+  pool: 5
+  #username: quentin
+  password:
+  timeout: 5000
