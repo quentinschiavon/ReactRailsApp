@@ -24,8 +24,8 @@ Web application displaying Star Wars characters
 
 Clone this repository
 ```bash
-git clone 'https://github...'
-cd repo
+git clone 'https://github.com/quentinschiavon/ReactRailsApp.git'
+cd ReactRailsApp
 ```
 
 Open a new command window and run
@@ -53,8 +53,12 @@ rails server
 ```
 Open your bowser on localhost:3000 and see the app running !
 
-## Datas
+## Demo
 
-All datas for characters are from the SWAPI free api
+live demo can be found at [https://react-rails-star-wars.herokuapp.com](https://react-rails-star-wars.herokuapp.com/)
+
+## Data
+
+All data for characters are from the SWAPI free api
 
 The images are from the starwars-visualguide website

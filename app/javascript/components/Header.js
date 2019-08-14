@@ -20,6 +20,10 @@ const styles = theme => ({
     color: "#feda4a",
     fontFamily: [ '"Star Jedi"','arial'].join(','),
     fontSize: 50,
+
+  },
+  button: {
+    textDecoration: "none",
     marginLeft  : 'auto',
     marginRight : 'auto'
   }
@@ -32,9 +36,9 @@ class Header extends React.Component {
       <div>
       <AppBar position="static" className={classes.root}>
         <Toolbar>
-        <Typography className={classes.text}>
+          <a href="/" className={classes.button}><Typography className={classes.text}>
             Star Wars
-          </Typography>
+          </Typography></a>
        </Toolbar>
       </AppBar>
       </div>

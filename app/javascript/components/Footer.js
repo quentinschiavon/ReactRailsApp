@@ -33,7 +33,7 @@ class Footer extends React.Component {
     return (
       <div className={classes.root}>
           <Typography className={classes.text}>
-            Developed a long time ago, in a galaxy far, far away.... by Quentin Schiavon, datas from SWAPI, assets from starwars-visualguide.com
+            Developed a long time ago, in a galaxy far, far away.... by Quentin Schiavon, data from SWAPI, assets from starwars-visualguide.com
           </Typography>
       </div>
     );
