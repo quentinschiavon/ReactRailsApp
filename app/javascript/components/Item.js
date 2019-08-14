@@ -22,11 +22,10 @@ import {getImageUrl} from './Helper';
 
 const styles = theme => ({
   root: {
-    height: '85vh',
+
   },
   card: {
     display: 'flex',
-    height:550,
     width: 900,
     marginRight: "auto",
     marginLeft: "auto"
